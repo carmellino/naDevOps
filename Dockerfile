@@ -12,6 +12,7 @@ RUN make
 RUN cp lib/libgtest.a /usr/lib
 RUN cp lib/libgtest_main.a /usr/lib
 WORKDIR "/"
+RUN mkdir folderrrrrrrrrrrrr
 RUN ls
 RUN cp naDevops/* ./
 RUN cmake CMakeLists.txt
